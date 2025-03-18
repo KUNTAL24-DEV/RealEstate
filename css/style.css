@@ -562,6 +562,94 @@ hr {
     text-align: center;
   }
 }
+@media screen and (max-width: 565px) {
+  .col-md-4 {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .card img {
+    height: 150px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-body h5 {
+    font-size: 16px;
+  }
+
+  .text-muted {
+    font-size: 10px;
+  }
+  /* ==== */
+  .nearest-residence h2 {
+    font-size: 20px;
+  }
+  .nearest-residence button {
+    font-size: 10px;
+  }
+  /* === */
+  .steps-section h2 {
+    font-size: 25px;
+  }
+  .steps-section p {
+    font-size: 15px;
+  }
+  /* ==== */
+  .agent-section {
+    padding-top: 40px;
+    margin-bottom: -150px;
+  }
+
+  .agent-content {
+    flex-direction: column;
+  }
+
+  .agent-text {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .agent-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .agent-text p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .agent-text p img {
+    width: 40px;
+    margin-right: 5px;
+  }
+
+  .agent-img {
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* ==== */
+  .app-content {
+    text-align: center;
+  }
+
+  .app-buttons {
+    justify-content: center;
+  }
+
+  .app-section {
+    padding: 20px 10px;
+    max-width: 95%;
+    margin-top: 10%;
+  }
+
+  .app-content {
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .col-md-4 {
